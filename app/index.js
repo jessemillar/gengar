@@ -6,15 +6,15 @@ import * as util from "../common/utils";
 clock.granularity = "minutes";
 
 // Time digit positions
-let pos1 = {x: -8, y: 66};
-let pos2 = {x: 54, y: 60};
-let pos3 = {x: 102, y: 60};
-let pos4 = {x: 152, y: 58};
-let pos5 = {x: 218, y: 56};
-let pos1b = {x: 24, y: 60};
-let pos2b = {x: 72, y: 60};
-let pos3b = {x: 122, y: 58};
-let pos4b = {x: 188, y: 56};
+let pos1 = { x: -4, y: 10 };
+let pos2 = { x: 27, y: 4 };
+let pos3 = { x: 51, y: 4 };
+let pos4 = { x: 76, y: 2 };
+let pos5 = { x: 109, y: 0 };
+let pos1b = { x: 12, y: 4 };
+let pos2b = { x: 36, y: 4 };
+let pos3b = { x: 61, y: 2 };
+let pos4b = { x: 94, y: 0 };
 
 let day = document.getElementById("day");
 
@@ -41,7 +41,7 @@ let hourRight = document.getElementById("hour-right");
 let minuteLeft = document.getElementById("minute-left");
 let minuteRight = document.getElementById("minute-right");
 
-clock.ontick = (evt) => {  
+clock.ontick = (evt) => {
   let date = evt.date;
   let curDay = date.getDay();
   let curHour = util.zeroPad(date.getHours() % 12 || 12);
@@ -50,11 +50,11 @@ clock.ontick = (evt) => {
   util.setDayValue(day, curDay);
   util.drawDate(dateDigits, date.getMonth(), date.getDate());
   util.drawSteps(stepDigits, today.local.steps || 0);
-  
+
   if (curHour > 9) {
     hourLeft.style.visibility = "visible";
     util.setLargeDigitValue(hourLeft, ("" + curHour)[0]);
-    
+
     util.setDigitPosition(hourLeft, pos1);
     util.setDigitPosition(hourRight, pos2);
     util.setDigitPosition(colon, pos3);
@@ -62,15 +62,15 @@ clock.ontick = (evt) => {
     util.setDigitPosition(minuteRight, pos5);
   } else {
     hourLeft.style.visibility = "hidden";
-    
+
     util.setDigitPosition(hourRight, pos1b);
     util.setDigitPosition(colon, pos2b);
     util.setDigitPosition(minuteLeft, pos3b);
     util.setDigitPosition(minuteRight, pos4b);
   }
-  
+
   util.setLargeDigitValue(hourRight, ("" + curHour)[1]);
-  
+
   util.setLargeDigitValue(minuteLeft, ("" + curMinute)[0]);
   util.setLargeDigitValue(minuteRight, ("" + curMinute)[1]);
 }

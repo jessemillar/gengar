@@ -1,30 +1,32 @@
 <svg class="background">
   <image id="gengar" x="29" y="16" width="242" height="219" href="gengar.png" load="sync" />
 
-  <image id="hour-left" x="0" y="0" width="41" height="55" href="large-1.png" load="sync" />
-  <image id="hour-right" x="0" y="0" width="41" height="55" href="large-2.png" load="sync" />
+  <svg x="80" y="200">
+    <image id="hour-left" x="0" y="0" width="41" height="55" href="large-1.png" load="sync" />
+    <image id="hour-right" x="0" y="0" width="41" height="55" href="large-2.png" load="sync" />
 
-  <image id="minute-left" x="0" y="0" width="41" height="55" href="large-3.png" load="sync" />
-  <image id="minute-right" x="0" y="0" width="41" height="55" href="large-2.png" load="sync" />
+    <image id="minute-left" x="0" y="0" width="41" height="55" href="large-3.png" load="sync" />
+    <image id="minute-right" x="0" y="0" width="41" height="55" href="large-2.png" load="sync" />
 
-  <image id="colon" x="0" y="0" width="41" height="55" href="large-Colon.png" load="sync" />
-
-  <svg x="62" y="26">
-    <image id="day" x="0" y="0" width="36" height="20" href="small-Fri.png" load="sync" />
-
-    <image id="date-1" x="65" y="0" width="15" height="21" href="small-1.png" load="sync" />
-    <image id="date-2" x="84" y="0" width="15" height="21" href="small-2.png" load="sync" />
-    <image id="date-3" x="103" y="0" width="15" height="21" href="small-Dash.png" load="sync" />
-    <image id="date-4" x="122" y="0" width="15" height="21" href="small-3.png" load="sync" />
-    <image id="date-5" x="141" y="0" width="15" height="21" href="small-0.png" load="sync" />
+    <image id="colon" x="0" y="0" width="41" height="55" href="large-Colon.png" load="sync" />
   </svg>
 
-  <svg x="6" y="186">
-    <image id="steps-1" x="0" y="6" width="15" height="21" href="small-Dollar.png" load="sync" />
-    <image id="steps-2" x="21" y="4" width="15" height="21" href="small-1.png" load="sync" />
-    <image id="steps-3" x="42" y="4" width="15" height="21" href="small-2.png" load="sync" />
-    <image id="steps-4" x="63" y="2" width="15" height="21" href="small-3.png" load="sync" />
-    <image id="steps-5" x="84" y="2" width="15" height="21" href="small-4.png" load="sync" />
-    <image id="steps-6" x="105" y="0" width="15" height="21" href="small-5.png" load="sync" />
+  <svg x="70" y="260">
+    <image id="day" x="0" y="0" width="36" height="20" href="small-Fri.png" load="sync" />
+
+    <image id="date-1" x="32" y="2" width="15" height="21" href="small-1.png" load="sync" />
+    <image id="date-2" x="42" y="0" width="15" height="21" href="small-2.png" load="sync" />
+    <image id="date-3" x="52" y="2" width="15" height="21" href="small-Dash.png" load="sync" />
+    <image id="date-4" x="61" y="0" width="15" height="21" href="small-3.png" load="sync" />
+    <image id="date-5" x="70" y="2" width="15" height="21" href="small-0.png" load="sync" />
+  </svg>
+
+  <svg x="156" y="260">
+    <image id="steps-1" x="0" y="0" width="15" height="21" href="small-Dollar.png" load="sync" />
+    <image id="steps-2" x="11" y="2" width="15" height="21" href="small-1.png" load="sync" />
+    <image id="steps-3" x="21" y="0" width="15" height="21" href="small-2.png" load="sync" />
+    <image id="steps-4" x="32" y="2" width="15" height="21" href="small-3.png" load="sync" />
+    <image id="steps-5" x="42" y="0" width="15" height="21" href="small-4.png" load="sync" />
+    <image id="steps-6" x="53" y="2" width="15" height="21" href="small-5.png" load="sync" />
   </svg>
 </svg>
