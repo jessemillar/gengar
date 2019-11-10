@@ -1,5 +1,5 @@
 {
-  "name": "gengar-new",
+  "name": "gengar",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
@@ -12,7 +12,7 @@
     "appType": "clockface",
     "appDisplayName": "Gengar",
     "iconFile": "resources/icon.png",
-    "wipeColor": "#ffffff",
+    "wipeColor": "#000000",
     "requestedPermissions": [
       "access_activity"
     ],
