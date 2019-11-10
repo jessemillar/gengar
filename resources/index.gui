@@ -21,12 +21,12 @@
     <image id="date-5" x="70" y="2" width="15" height="21" href="small-0.png" load="sync" />
   </svg>
 
-  <svg x="156" y="260">
+  <svg x="152" y="260">
     <image id="steps-1" x="0" y="0" width="15" height="21" href="small-Dollar.png" load="sync" />
-    <image id="steps-2" x="11" y="2" width="15" height="21" href="small-1.png" load="sync" />
-    <image id="steps-3" x="21" y="0" width="15" height="21" href="small-2.png" load="sync" />
-    <image id="steps-4" x="32" y="2" width="15" height="21" href="small-3.png" load="sync" />
-    <image id="steps-5" x="42" y="0" width="15" height="21" href="small-4.png" load="sync" />
-    <image id="steps-6" x="53" y="2" width="15" height="21" href="small-5.png" load="sync" />
+    <image id="steps-2" x="22" y="2" width="15" height="21" href="small-1.png" load="sync" />
+    <image id="steps-3" x="33" y="0" width="15" height="21" href="small-2.png" load="sync" />
+    <image id="steps-4" x="44" y="2" width="15" height="21" href="small-3.png" load="sync" />
+    <image id="steps-5" x="54" y="0" width="15" height="21" href="small-4.png" load="sync" />
+    <image id="steps-6" x="65" y="2" width="15" height="21" href="small-5.png" load="sync" />
   </svg>
 </svg>
